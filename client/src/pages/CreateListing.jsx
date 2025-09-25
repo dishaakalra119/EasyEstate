@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import {getDownloadURL, getStorage,ref, uploadBytesResumable} from 'firebase/storage';
-import {app} from '../firebase'
+import {app} from '../firebase';
 export default function CreateListing() {
     const [files,setFiles]=useState([]);
     const [formData, setFormData]=useState({
