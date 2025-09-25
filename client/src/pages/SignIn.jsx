@@ -37,7 +37,7 @@ export default function SignIn() {
       dispatch(signInFailure(error.message))
     }
   }
-  console.log(formData);
+
   return (
     <div className='p-3 max-w-lg mx-auto'>
       <h1 className='text-4xl text-center font-semibold my-7 text-slate-700'>Sign In</h1>
