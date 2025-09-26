@@ -54,9 +54,8 @@ export default function Home() {
           <br />
           place with ease
         </h1>
-        <div className='text-gray-400 text-xs sm:text-sm'>
-          Easy Estate is the best place to find your next perfect place to
-          live.
+        <div className='text-gray-500 text-xs sm:text-sm'>
+          Find, list, and manage properties effortlessly — all in one place with EasyEstate.
           <br />
           We have a wide range of properties for you to choose from.
         </div>
